@@ -1,0 +1,1 @@
+document.body.onload=function(){setTimeout(function(){var e=document.getElementById("page-preloader");e.classList.contains("done")||e.classList.add("done")},2e3)},jQuery(document).ready(function(e){e("#fullpage").fullpage({anchors:["firstPage","3rdPage"],menu:"#menu",scrollBar:!1})});
